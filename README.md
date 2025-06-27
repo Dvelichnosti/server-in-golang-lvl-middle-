@@ -99,9 +99,10 @@ func generateToken(userID string) string {
 ```
 
 ---
-
 ## 📫 Контакты
-Разработчик: [@Dvelichnosti](https://github.com/Dvelichnosti)]
-             [@Dvelichnosti(https://t.me/Dve_lichnosti)]
 
+**Разработчик:**
+
+- GitHub: [@Dvelichnosti](https://github.com/Dvelichnosti)  
+- Telegram: [@Dvelichnosti](https://t.me/Dve_lichnosti)
 Если хочешь, я помогу развернуть проект в облаке или дописать `login` и `refresh-token` endpoints!
