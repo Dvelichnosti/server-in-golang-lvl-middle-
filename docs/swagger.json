@@ -1,0 +1,21 @@
+Swagger-документация (генерируется через swag)
+⚙️ Swagger генерация
+1. Установи swag CLI:
+
+go install github.com/swaggo/swag/cmd/swag@latest
+Убедись, что $GOPATH/bin в PATH, и затем выполни:
+
+
+swag init
+Это создаст папку:
+
+./docs/
+├── docs.go
+├── swagger.json
+├── swagger.yaml
+🧪 Проверка
+http://localhost:8080/swagger/index.html — Swagger UI
+
+http://localhost:8080/ws?token=...&room=default — WebSocket
+
+http://localhost:8080/metrics — Prometheus
